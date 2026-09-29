@@ -2,7 +2,7 @@
 
 ## Complete Flutter Environment Setup Documentation
 
-Dokumentasi ini berisi proses setup Flutter Mobile Development untuk mata kuliah Pemrograman Mobile.
+Dokumentasi ini berisi proses setup Flutter Mobile Development untuk mata kuliah Pemrograman Mobile 2026.
 
 Setup dibuat oleh:
 

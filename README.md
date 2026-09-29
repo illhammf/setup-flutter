@@ -4,15 +4,15 @@
 
 Dokumentasi ini berisi proses setup Flutter Mobile Development untuk mata kuliah Pemrograman Mobile 2026.
 
-Setup dibuat oleh:
-
-**Ilham Firmansyah**
-
 Tujuan:
 - Membuat environment Flutter.
 - Menggunakan WSL2 sebagai development environment.
 - Menghubungkan Flutter dengan Android device fisik.
 - Membuat dan menjalankan project Flutter pertama.
+
+⚠️ ***Perhatian***:
+- Semua tahapan dalam Dokumentasi ini adalah milik Ilham Firmansyah
+- Pentingnya cek Environment dan Folder masing-masing
 
 ---
 
@@ -25,10 +25,16 @@ Owner:
 Ilham Firmansyah
 
 OS:
-Windows
+Windows 11
 
 Processor:
-AMD Ryzen 3
+AMD Ryzen 3 3250U with Radeon Graphics (2.60 GHz)
+
+RAM:
+16,0 GB (13,9 GB usable)
+
+Storage:
+307 GB of 477 GB used
 
 Environment:
 WSL2 Ubuntu
@@ -66,7 +72,7 @@ API:
 
 Digunakan sebagai:
 - Device testing Flutter.
-- Pengganti Android Emulator.
+- Pengganti Android Emulator (Android Studio).
 - Media debugging.
 
 ---
@@ -164,6 +170,9 @@ Masuk user:
 su - ilhamfirmansyah
 ```
 
+⚠️ Catatan:
+- Sesuaikan dengan username masing masing
+
 ---
 
 # 6. Folder Structure
@@ -173,6 +182,9 @@ Folder utama:
 ```
 /home/ilhamfirmansyah/perkuliahan/pemrograman_mobile
 ```
+
+⚠️ Catatan:
+- Sesuaikan dengan folder masing masing
 
 Struktur:
 
@@ -316,6 +328,8 @@ Pastikan VS Code menunjukkan:
 WSL: Ubuntu
 ```
 
+Letaknya di pojok kiri Visual Studio Code
+
 ---
 
 # 12. Membuat Project Flutter
@@ -332,6 +346,8 @@ Buat project:
 flutter create hello_world
 ```
 
+Ini sesuaikan dengan nama projecy yang mau kamu buat
+
 Masuk:
 
 ```bash
@@ -347,6 +363,9 @@ Aktifkan pada POCO X3 NFC:
 - Developer Options.
 - USB Debugging.
 - File Transfer Mode.
+
+⚠️ Catatan:
+- Selalu pantau layar HP karena akan ada Layar Popup sewaktu-waktu
 
 ---
 
@@ -452,7 +471,7 @@ Saat aplikasi berjalan:
 
 ---
 
-# 20. Git Workflow
+# 20. Git Workflow (repository masing-masing github)
 
 Inisialisasi:
 
@@ -534,4 +553,5 @@ flutter run
 ✓ Flutter App Running
 ```
 
+### Selamattt
 Environment siap digunakan untuk pembelajaran Flutter Mobile Development.

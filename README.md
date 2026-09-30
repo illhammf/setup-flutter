@@ -553,5 +553,5 @@ flutter run
 ✓ Flutter App Running
 ```
 
-### Selamattt
+## Selamat!!!
 Environment siap digunakan untuk pembelajaran Flutter Mobile Development.
